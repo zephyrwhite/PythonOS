@@ -9,3 +9,7 @@ mas = []
 mas.append(a)
 mas.append(mas[-1] + b)
 print(mas[-1])
+
+mas.append(mas)
+mas.append(1)
+print(mas[-2])
