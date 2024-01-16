@@ -13,3 +13,7 @@ print(mas[-1])
 mas.append(mas)
 mas.append(1)
 print(mas[-2])
+
+for _ in range(len(mas)):
+    print(a-b*_)
+    
